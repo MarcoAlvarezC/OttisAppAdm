@@ -32,7 +32,7 @@ export const Login = () => {
   }
   return (
     <div >
-      <div id="form_login" className="container"style={{fontFamily:'Arial  sans_serif',background:'linear-gradient(#141e30, #243b55)',position:'absolute',top:'50%',left:'50%',width:'400px',padding:'40px',transform:'translate(-50%, -50%)',boxShadow:'0 15px 25px rgba(0,0,0,.6)',borderRadius:'10px'}}>
+      <div id="form_login" className="container">
       <div>
        <img src="https://www.ottis.com.co/iconos/logo_ottis.png" alt="Descripción de la imagen" style={{ width: '200px', height: 'auto',position:'absolute',top: '-96px',left:'89px' }} />
       </div>  
@@ -47,7 +47,7 @@ export const Login = () => {
         <h5 style={{color:"#F1EEE6", margin:'0 0 30px',textalign:"center",padding:'0'}}><label htmlFor="txtpas"><strong>Password</strong></label></h5>
             <input type="password" id="txtpas" style={{textAlign:"center",top:'-20px',left:'0px',position:'relative',padding:'10px 20px',color:'#0d6efd',fontSize:'14px',textDecoration:'none',textTransform:'uppercase',overflow:'hidden',transition:'.5s',marginTop:'40px',letterSpacing:'4px',border:'none',borderBottom:'1px solid #F1EEE6',background:'transparent'}} className="form-control" onChange={(e)=>setPas(e.target.value)} required/>
         </div><br/>
-        <input type="submit"  className="btn btn-primary" value="Login" onClick={iniciarSesion} style={{color:'#fff',background:'linear-gradient(265deg, transparent, #03E9F4)'}}/>
+        <input type="submit"  className="button-1 button" value="Login" onClick={iniciarSesion} />
     </form>
     
 </div>
